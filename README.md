@@ -28,5 +28,6 @@ Make sure you have the following programs in your path:
 
 # Citations
 * Speiser DI, et al. 2014. Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms. BMC Bioinformatics. 15:350.
+* Ramirez MD, et al. 2016 The last common ancestor of most bilaterian animals possessed at least nine opsins. Genome Biology and Evolution. 12: 3640–3652. 
 * Gingras MA, et al. In prep. Nudibranch opsins: identification, localization, and potential roles in extraocular photoreception and circadian rhythms.
 

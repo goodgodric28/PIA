@@ -6,7 +6,7 @@ Make sure you have the following programs in your path:
 * Blast+ suite (for blastp and blast_formatter)
 * Seqtk
 * CD-HIT
-* Mafft
+* MAFFT
 * RAxML
 
 # Usage

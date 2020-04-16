@@ -10,7 +10,7 @@ Make sure you have the following programs in your path:
 *raxml
 
 # Usage
-***USAGE:*** To run the PIA pipeline, add PIA/opsin_PIA_commander/scripts to your path and run PIA_pipeline.py as an executable like so: 'PIA_pipeline.py /PATH/TO/PIA/opsin_PIA_commander/
+***USAGE:*** To run the PIA pipeline, add PIA/opsin_PIA_commander/scripts to your path and run PIA_pipeline.py as an executable like so: 'PIA_pipeline.py /PATH/TO/PIA/opsin_PIA_commander/'
 
 * To make the script executable, navigate to the PIA/opsin_PIA_commander/scripts directory and type 'chmod +x PIA_pipeline.py'
 

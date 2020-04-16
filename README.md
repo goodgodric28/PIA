@@ -2,12 +2,12 @@ PIA commander is the commandline version of the Phylogenetically Informed Annota
 
 # Things you'll need to do before running PIA commander
 Make sure you have the following programs in your path:
-*transdecoder
-*blast+ suite (for blastp and blast_formatter)
-*seqtk
-*cd-hit
-*mafft
-*raxml
+* Transdecoder
+* Blast+ suite (for blastp and blast_formatter)
+* Seqtk
+* CD-HIT
+* Mafft
+* RAxML
 
 # Usage
 ***USAGE:*** To run the PIA pipeline, add PIA/opsin_PIA_commander/scripts to your path and run PIA_pipeline.py as an executable like so:

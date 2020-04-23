@@ -57,6 +57,6 @@ cd "$COMMANDER_HOME"/analysis/PIA
 mafft --add "$COMMANDER_HOME"/analysis/cdhit/"$seqs" --reorder "$COMMANDER_HOME"/analysis/PIA_gene_alignments/ramirez_metazoan_opsin_tidy_final.aln > "$seqs"_MAFFT_opsin_aligned.fa
 
 # runs RAxML to place identified hits into previously estimated phylogeny for sequences
-raxmlHPC-PTHREADS -f v -s "$COMMANDER_HOME"/analysis/PIA/"$seqs"_MAFFT_opsin_aligned.fa -t "$COMMANDER_HOME"/analysis/PIA_gene_trees/ramirez_metazoan_opsin_phylo_final.treefile -m PROTGAMMAWAG -n "$seqs" -T 8
+raxmlHPC -f v -s "$COMMANDER_HOME"/analysis/PIA/"$seqs"_MAFFT_opsin_aligned.fa -t "$COMMANDER_HOME"/analysis/PIA_gene_trees/ramirez_metazoan_opsin_phylo_final.treefile -m PROTGAMMAWAG -n "$seqs" -T 8
 
 done

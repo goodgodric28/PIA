@@ -37,3 +37,11 @@ chmod +x PIA_pipeline.py
 * Ramirez MD, et al. 2016 The last common ancestor of most bilaterian animals possessed at least nine opsins. Genome Biology and Evolution. 12: 3640–3652. 
 * Gingras MA, et al. In prep. Nudibranch opsins: identification, localization, and potential roles in extraocular photoreception and circadian rhythms.
 
+## Information for programs in this pipeline
+* https://github.com/TransDecoder/TransDecoder
+* Camacho C, et al. 2009. BLAST+: architecture and applications. BMC Bioinformatics. 10: 421.
+* https://github.com/lh3/seqtk
+* Li, W, & Godzik, A. 2006. Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics. 22: 1658-1659.
+* Limin F, et al. 2012. CD-HIT: accelerated for clustering the next generation sequencing data. Bioinformatics. 28: 3150-3152. doi: 10.1093/bioinformatics/bts565.
+* Katoh K., et al. 2002. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic acids research. 30: 3059-3066.
+* Stamatakis A. 2014. RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics. 10: 1312-1313.

@@ -20,7 +20,7 @@ PIA_pipeline.py /PATH/TO/PIA/opsin_PIA_commander/
 chmod +x PIA_pipeline.py
 ```
 
-* Put copies of your assemblies in the data/assemblies folder
+* Put copies of your assemblies in the data/assemblies folder with the *.fa extension.
 
 * If you want a more stringent e-value, change that in script 2.
 

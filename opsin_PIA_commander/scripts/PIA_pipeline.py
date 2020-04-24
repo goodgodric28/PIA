@@ -66,14 +66,14 @@ subprocess.run(script1, shell=True)
 print('Identifying candidates and starting RAxML analysis...\n')
 
 if queue == 0:
-    	script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_sbatch.sh " + path
-    	subprocess.run(script2, shell=True)
+    script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_sbatch.sh " + path
+    subprocess.run(script2, shell=True)
 elif queue == 1:
-    	script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_qsub.sh " + path
-    	subprocess.run(script2, shell=True)
+    script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_qsub.sh " + path
+    subprocess.run(script2, shell=True)
 elif queue == 2:
-    	script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_local.sh " + path
-	subprocess.run(script2, shell=True)
+    script2 = "sh " + path + "scripts/2_blast_tidy_headers_cdhit_make_PIA_jobs_local.sh " + path
+    subprocess.run(script2, shell=True)
 
 ######### End PIA Pipeline #############
 

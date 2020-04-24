@@ -2,12 +2,12 @@ PIA commander is the commandline version of the Phylogenetically Informed Annota
 
 # Things you'll need to do before running PIA commander
 Make sure you have the following programs in your path:
-* Transdecoder
-* Blast+ suite (for blastp and blast_formatter)
-* Seqtk
-* CD-HIT
-* MAFFT
-* RAxML
+* Transdecoder (https://github.com/TransDecoder/TransDecoder)
+* Blast+ suite (for blastp and blast_formatter; https://www.ncbi.nlm.nih.gov/books/NBK279671/) 
+* Seqtk (https://github.com/lh3/seqtk)
+* CD-HIT (http://weizhongli-lab.org/cd-hit/)
+* MAFFT (https://mafft.cbrc.jp/alignment/software/)
+* RAxML (https://cme.h-its.org/exelixis/web/software/raxml/index.html)
 
 # Usage
 ***USAGE:*** To run the PIA pipeline, add PIA/opsin_PIA_commander/scripts to your path and run PIA_pipeline.py as an executable like so:
@@ -37,10 +37,8 @@ chmod +x PIA_pipeline.py
 * Ramirez MD, et al. 2016 The last common ancestor of most bilaterian animals possessed at least nine opsins. Genome Biology and Evolution. 12: 3640–3652. 
 * Gingras MA, et al. In prep. Nudibranch opsins: identification, localization, and potential roles in extraocular photoreception and circadian rhythms.
 
-## Information for programs in this pipeline
-* https://github.com/TransDecoder/TransDecoder
+## Citation information for some of the  programs in this pipeline
 * Camacho C, et al. 2009. BLAST+: architecture and applications. BMC Bioinformatics. 10: 421.
-* https://github.com/lh3/seqtk
 * Li, W, & Godzik, A. 2006. Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics. 22: 1658-1659.
 * Limin F, et al. 2012. CD-HIT: accelerated for clustering the next generation sequencing data. Bioinformatics. 28: 3150-3152. doi: 10.1093/bioinformatics/bts565.
 * Katoh K., et al. 2002. MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform. Nucleic acids research. 30: 3059-3066.
